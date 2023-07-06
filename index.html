@@ -38,9 +38,9 @@
                     class="fixed hidden inset-0 lg:!hidden bg-box-bg bg-opacity-50 backdrop-filter backdrop-blur-xl">
                 </div>
                 <div data-navbar
-                    class="flex h-0 overflow-hidden lg:!h-auto lg:scale-y-100 duration-300 ease-linear flex-col gap-y-6 gap-x-4 lg:flex-row w-full lg:justify-between lg:items-center absolute lg:relative top-full lg:top-0 bg-body lg:bg-transparent border-x border-x-box-border lg:border-x-0">
+                    class="flex h-0 overflow-hidden lg:!h-auto lg:scale-y-100 duration-300 ease-linear flex-col gap-y-6 gap-x-4 lg:flex-row w-full lg:justify-between lg:items-center fixed absolute lg:relative top-full lg:top-0 bg-body lg:bg-transparent border-x border-x-box-border lg:border-x-0">
                     <ul
-                        class="border-t border-box-border lg:border-t-0 px-6 lg:px-0 pt-6 lg:pt-0 flex flex-col lg:flex-row gap-y-4 gap-x-3 text-lg text-heading-2 w-full lg:justify-center lg:items-center">
+                        class="border-t border-box-border lg:border-t-0 px-6 lg:px-0 pt-6 lg:pt-0 flex flex-col lg:flex-row gap-y-4 gap-x-3 text-lg text-heading-2 w-full lg:justify-center  lg:items-center">
                         <li>
                             <a href="/" class="duration-300 font-medium ease-linear hover:text-primary py-3">
                                 Accueil
@@ -606,7 +606,6 @@
             </div>
         </section>
 
-
         <section id="cta" class="pb-20">
             <div class="mx-auto max-w-7xl w-full px-5 sm:px-8 md:px-14 lg:px-5 undefined">
                 <div
@@ -635,17 +634,34 @@
                                 class="text-transparent bg-clip-text bg-gradient-to-br from-indigo-600 from-20% via-primary via-30% to-green-600">prendre
                                 contact</span>
                         </h1>
-                        <p class="md:text-lg text-heading-3 pt-10">
+                 
 
-                            La collaboration est l'entente sont les seuls moyens d'avancer alors
+                           <form action="" >
+                            <div class="text-heading-3  w-full  flex gap-3 
+                            items-center mt-4">
+                             <input class="w-full pr-1 mt-6 py-1 pl-6 py-3 outline-none bg-transparent text-heading-3 shadow-lg shadow-box-shadow
+                             border border-box-border bg-box-bg rounded-full ease-linear 
+                             focus-within:bg-body  focus-within:border-primary " placeholder="entrer votre nom ici">
+                            </div>
+                           <div class="text-heading-3  w-full  flex gap-3 
+                           items-center mt-4">
+                            <input class="w-full mt-6 pr-1 py-1 pl-6 py-3 outline-none bg-transparent text-heading-3 shadow-lg shadow-box-shadow
+                            border border-box-border bg-box-bg rounded-full ease-linear 
+                            focus-within:bg-body  focus-within:border-primary " placeholder="entrer votre email ici">
+                           </div>
 
-                        </p>
+                            <textarea name="" class="w-full pr-1 py-1 pl-6 py-3 outline-none bg-transparent  mt-6 text-heading-3 shadow-lg shadow-box-shadow
+                            border border-box-border bg-box-bg rounded-full ease-linear 
+                            focus-within:bg-body  focus-within:border-primary" placeholder="votre message ici"></textarea>
+                           </form>
+
+                        
                         <div class="mx-auto max-w-md sm:max-w-xl pt-10">
                             <a href="mailto:kisengajocelin7@gmail.com"
                                 class="px-6 py-3 rounded-full outline-none relative overflow-hidden border duration-300 ease-linear
                     after:absolute after:inset-x-0 after:aspect-square after:scale-0 after:opacity-70 after:origin-center after:duration-300 after:ease-linear after:rounded-full after:top-0 after:left-0 after:bg-[#172554]
                     bg-primary border-transparent relative after:bg-[#172554] hover:border-[#172554] hover:after:opacity-100 hover:after:scale-[2.1] undefined">
-                                <span class="text-white relative z-[5]">Entrons en contact</span>
+                                <span class="text-white relative z-[5]">envoyer votre message</span>
                             </a>
                         </div>
                     </div>
